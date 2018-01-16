@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C287BBB200CC312009197A9 /* BeeSlicingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C287BB9200CC312009197A9 /* BeeSlicingViewController.m */; };
+		5C287BBC200CC312009197A9 /* BeePuzzleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C287BBA200CC312009197A9 /* BeePuzzleCollectionViewCell.m */; };
+		5C287BBF200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C287BBE200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.m */; };
+		5C38CAFF200DA07400561CD3 /* MessageRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38CAFE200DA07400561CD3 /* MessageRecordViewController.m */; };
+		5C38CB05200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C38CB04200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.m */; };
+		5CA1D059200C8C8B006EB762 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D058200C8C8B006EB762 /* AppDelegate.m */; };
+		5CA1D05C200C8C8B006EB762 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D05B200C8C8B006EB762 /* ViewController.m */; };
+		5CA1D05F200C8C8B006EB762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1D05D200C8C8B006EB762 /* Main.storyboard */; };
+		5CA1D061200C8C8B006EB762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1D060200C8C8B006EB762 /* Assets.xcassets */; };
+		5CA1D064200C8C8B006EB762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1D062200C8C8B006EB762 /* LaunchScreen.storyboard */; };
+		5CA1D067200C8C8B006EB762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D066200C8C8B006EB762 /* main.m */; };
+		5CA1D071200C8C8C006EB762 /* BeeHookSimpleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D070200C8C8C006EB762 /* BeeHookSimpleDemoTests.m */; };
+		5CA1D07C200C8C8C006EB762 /* BeeHookSimpleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D07B200C8C8C006EB762 /* BeeHookSimpleDemoUITests.m */; };
+		5CA1D08B200C8D63006EB762 /* BeeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D08A200C8D63006EB762 /* BeeHomeViewController.m */; };
+		5CA1D08E200C8E7D006EB762 /* fuli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5CA1D08D200C8E7D006EB762 /* fuli.jpg */; };
+		5CA1D092200C8FC1006EB762 /* BeeHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D091200C8FC1006EB762 /* BeeHomeTableViewCell.m */; };
+		5CA1D098200C972F006EB762 /* BeeClickBtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D097200C972F006EB762 /* BeeClickBtnViewController.m */; };
+		5CA1D09C200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D09B200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.m */; };
+		5CA1D09F200CA3E2006EB762 /* BeeSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA1D09E200CA3E2006EB762 /* BeeSwizzling.m */; };
+		8BD0A823B951C0AFBFFB0A11 /* libPods-BeeHookSimpleDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F3A4A0F92255FF14A10771 /* libPods-BeeHookSimpleDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CA1D06D200C8C8C006EB762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA1D04C200C8C8B006EB762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA1D053200C8C8B006EB762;
+			remoteInfo = BeeHookSimpleDemo;
+		};
+		5CA1D078200C8C8C006EB762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CA1D04C200C8C8B006EB762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CA1D053200C8C8B006EB762;
+			remoteInfo = BeeHookSimpleDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B6E9E199517A2FEFA904D59 /* Pods-BeeHookSimpleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHookSimpleDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeeHookSimpleDemo/Pods-BeeHookSimpleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3A4AAC15B03F24ACEAE2E1BD /* Pods-BeeHookSimpleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeHookSimpleDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeeHookSimpleDemo/Pods-BeeHookSimpleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C287BB7200CC311009197A9 /* BeeSlicingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeSlicingViewController.h; sourceTree = "<group>"; };
+		5C287BB8200CC312009197A9 /* BeePuzzleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeePuzzleCollectionViewCell.h; sourceTree = "<group>"; };
+		5C287BB9200CC312009197A9 /* BeeSlicingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeSlicingViewController.m; sourceTree = "<group>"; };
+		5C287BBA200CC312009197A9 /* BeePuzzleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeePuzzleCollectionViewCell.m; sourceTree = "<group>"; };
+		5C287BBD200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeSlicingViewController+RecordCategory.h"; sourceTree = "<group>"; };
+		5C287BBE200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BeeSlicingViewController+RecordCategory.m"; sourceTree = "<group>"; };
+		5C38CAFD200DA07400561CD3 /* MessageRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageRecordViewController.h; sourceTree = "<group>"; };
+		5C38CAFE200DA07400561CD3 /* MessageRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageRecordViewController.m; sourceTree = "<group>"; };
+		5C38CB03200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MessageRecordViewController+RecordCategory.h"; sourceTree = "<group>"; };
+		5C38CB04200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MessageRecordViewController+RecordCategory.m"; sourceTree = "<group>"; };
+		5CA1D054200C8C8B006EB762 /* BeeHookSimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeHookSimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA1D057200C8C8B006EB762 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CA1D058200C8C8B006EB762 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CA1D05A200C8C8B006EB762 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CA1D05B200C8C8B006EB762 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CA1D05E200C8C8B006EB762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CA1D060200C8C8B006EB762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CA1D063200C8C8B006EB762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CA1D065200C8C8B006EB762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA1D066200C8C8B006EB762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CA1D06C200C8C8C006EB762 /* BeeHookSimpleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHookSimpleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA1D070200C8C8C006EB762 /* BeeHookSimpleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHookSimpleDemoTests.m; sourceTree = "<group>"; };
+		5CA1D072200C8C8C006EB762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA1D077200C8C8C006EB762 /* BeeHookSimpleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHookSimpleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA1D07B200C8C8C006EB762 /* BeeHookSimpleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHookSimpleDemoUITests.m; sourceTree = "<group>"; };
+		5CA1D07D200C8C8C006EB762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA1D089200C8D63006EB762 /* BeeHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeHomeViewController.h; sourceTree = "<group>"; };
+		5CA1D08A200C8D63006EB762 /* BeeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHomeViewController.m; sourceTree = "<group>"; };
+		5CA1D08C200C8DED006EB762 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5CA1D08D200C8E7D006EB762 /* fuli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fuli.jpg; sourceTree = "<group>"; };
+		5CA1D090200C8FC1006EB762 /* BeeHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeHomeTableViewCell.h; sourceTree = "<group>"; };
+		5CA1D091200C8FC1006EB762 /* BeeHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHomeTableViewCell.m; sourceTree = "<group>"; };
+		5CA1D096200C972F006EB762 /* BeeClickBtnViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeClickBtnViewController.h; sourceTree = "<group>"; };
+		5CA1D097200C972F006EB762 /* BeeClickBtnViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeClickBtnViewController.m; sourceTree = "<group>"; };
+		5CA1D09A200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeeClickBtnViewController+RecordCategory.h"; sourceTree = "<group>"; };
+		5CA1D09B200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BeeClickBtnViewController+RecordCategory.m"; sourceTree = "<group>"; };
+		5CA1D09D200CA3E2006EB762 /* BeeSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeSwizzling.h; sourceTree = "<group>"; };
+		5CA1D09E200CA3E2006EB762 /* BeeSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeSwizzling.m; sourceTree = "<group>"; };
+		82F3A4A0F92255FF14A10771 /* libPods-BeeHookSimpleDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeeHookSimpleDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA1D051200C8C8B006EB762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD0A823B951C0AFBFFB0A11 /* libPods-BeeHookSimpleDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D069200C8C8C006EB762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D074200C8C8C006EB762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC64FE33B15B1E11804512E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B6E9E199517A2FEFA904D59 /* Pods-BeeHookSimpleDemo.debug.xcconfig */,
+				3A4AAC15B03F24ACEAE2E1BD /* Pods-BeeHookSimpleDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CA1D04B200C8C8B006EB762 = {
+			isa = PBXGroup;
+			children = (
+				5CA1D056200C8C8B006EB762 /* BeeHookSimpleDemo */,
+				5CA1D06F200C8C8C006EB762 /* BeeHookSimpleDemoTests */,
+				5CA1D07A200C8C8C006EB762 /* BeeHookSimpleDemoUITests */,
+				5CA1D055200C8C8B006EB762 /* Products */,
+				0FC64FE33B15B1E11804512E /* Pods */,
+				C69F32E732041C788DDC2237 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA1D055200C8C8B006EB762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D054200C8C8B006EB762 /* BeeHookSimpleDemo.app */,
+				5CA1D06C200C8C8C006EB762 /* BeeHookSimpleDemoTests.xctest */,
+				5CA1D077200C8C8C006EB762 /* BeeHookSimpleDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA1D056200C8C8B006EB762 /* BeeHookSimpleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D099200C9B63006EB762 /* Hook */,
+				5CA1D08F200C8F62006EB762 /* Home */,
+				5CA1D08D200C8E7D006EB762 /* fuli.jpg */,
+				5CA1D057200C8C8B006EB762 /* AppDelegate.h */,
+				5CA1D058200C8C8B006EB762 /* AppDelegate.m */,
+				5CA1D05A200C8C8B006EB762 /* ViewController.h */,
+				5CA1D05B200C8C8B006EB762 /* ViewController.m */,
+				5CA1D05D200C8C8B006EB762 /* Main.storyboard */,
+				5CA1D060200C8C8B006EB762 /* Assets.xcassets */,
+				5CA1D062200C8C8B006EB762 /* LaunchScreen.storyboard */,
+				5CA1D065200C8C8B006EB762 /* Info.plist */,
+				5CA1D066200C8C8B006EB762 /* main.m */,
+				5CA1D08C200C8DED006EB762 /* PrefixHeader.pch */,
+			);
+			path = BeeHookSimpleDemo;
+			sourceTree = "<group>";
+		};
+		5CA1D06F200C8C8C006EB762 /* BeeHookSimpleDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D070200C8C8C006EB762 /* BeeHookSimpleDemoTests.m */,
+				5CA1D072200C8C8C006EB762 /* Info.plist */,
+			);
+			path = BeeHookSimpleDemoTests;
+			sourceTree = "<group>";
+		};
+		5CA1D07A200C8C8C006EB762 /* BeeHookSimpleDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D07B200C8C8C006EB762 /* BeeHookSimpleDemoUITests.m */,
+				5CA1D07D200C8C8C006EB762 /* Info.plist */,
+			);
+			path = BeeHookSimpleDemoUITests;
+			sourceTree = "<group>";
+		};
+		5CA1D08F200C8F62006EB762 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D093200C96DD006EB762 /* ClickBtnVC */,
+				5CA1D094200C96F3006EB762 /* PuzzleVC */,
+				5CA1D095200C96FB006EB762 /* RecordVC */,
+				5CA1D089200C8D63006EB762 /* BeeHomeViewController.h */,
+				5CA1D08A200C8D63006EB762 /* BeeHomeViewController.m */,
+				5CA1D090200C8FC1006EB762 /* BeeHomeTableViewCell.h */,
+				5CA1D091200C8FC1006EB762 /* BeeHomeTableViewCell.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5CA1D093200C96DD006EB762 /* ClickBtnVC */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D096200C972F006EB762 /* BeeClickBtnViewController.h */,
+				5CA1D097200C972F006EB762 /* BeeClickBtnViewController.m */,
+			);
+			path = ClickBtnVC;
+			sourceTree = "<group>";
+		};
+		5CA1D094200C96F3006EB762 /* PuzzleVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C287BB8200CC312009197A9 /* BeePuzzleCollectionViewCell.h */,
+				5C287BBA200CC312009197A9 /* BeePuzzleCollectionViewCell.m */,
+				5C287BB7200CC311009197A9 /* BeeSlicingViewController.h */,
+				5C287BB9200CC312009197A9 /* BeeSlicingViewController.m */,
+			);
+			path = PuzzleVC;
+			sourceTree = "<group>";
+		};
+		5CA1D095200C96FB006EB762 /* RecordVC */ = {
+			isa = PBXGroup;
+			children = (
+				5C38CAFD200DA07400561CD3 /* MessageRecordViewController.h */,
+				5C38CAFE200DA07400561CD3 /* MessageRecordViewController.m */,
+			);
+			path = RecordVC;
+			sourceTree = "<group>";
+		};
+		5CA1D099200C9B63006EB762 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				5CA1D09D200CA3E2006EB762 /* BeeSwizzling.h */,
+				5CA1D09E200CA3E2006EB762 /* BeeSwizzling.m */,
+				5CA1D09A200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.h */,
+				5CA1D09B200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.m */,
+				5C287BBD200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.h */,
+				5C287BBE200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.m */,
+				5C38CB03200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.h */,
+				5C38CB04200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		C69F32E732041C788DDC2237 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82F3A4A0F92255FF14A10771 /* libPods-BeeHookSimpleDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA1D053200C8C8B006EB762 /* BeeHookSimpleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA1D080200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemo" */;
+			buildPhases = (
+				34C4E0E065A92B9D16C36876 /* [CP] Check Pods Manifest.lock */,
+				5CA1D050200C8C8B006EB762 /* Sources */,
+				5CA1D051200C8C8B006EB762 /* Frameworks */,
+				5CA1D052200C8C8B006EB762 /* Resources */,
+				AAB3D46786BBD3BD3F448AC6 /* [CP] Embed Pods Frameworks */,
+				7FCA68C6EBB836A88C5023A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHookSimpleDemo;
+			productName = BeeHookSimpleDemo;
+			productReference = 5CA1D054200C8C8B006EB762 /* BeeHookSimpleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CA1D06B200C8C8C006EB762 /* BeeHookSimpleDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA1D083200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemoTests" */;
+			buildPhases = (
+				5CA1D068200C8C8C006EB762 /* Sources */,
+				5CA1D069200C8C8C006EB762 /* Frameworks */,
+				5CA1D06A200C8C8C006EB762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA1D06E200C8C8C006EB762 /* PBXTargetDependency */,
+			);
+			name = BeeHookSimpleDemoTests;
+			productName = BeeHookSimpleDemoTests;
+			productReference = 5CA1D06C200C8C8C006EB762 /* BeeHookSimpleDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CA1D076200C8C8C006EB762 /* BeeHookSimpleDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA1D086200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemoUITests" */;
+			buildPhases = (
+				5CA1D073200C8C8C006EB762 /* Sources */,
+				5CA1D074200C8C8C006EB762 /* Frameworks */,
+				5CA1D075200C8C8C006EB762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CA1D079200C8C8C006EB762 /* PBXTargetDependency */,
+			);
+			name = BeeHookSimpleDemoUITests;
+			productName = BeeHookSimpleDemoUITests;
+			productReference = 5CA1D077200C8C8C006EB762 /* BeeHookSimpleDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA1D04C200C8C8B006EB762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GD_Bee;
+				TargetAttributes = {
+					5CA1D053200C8C8B006EB762 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5CA1D06B200C8C8C006EB762 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CA1D053200C8C8B006EB762;
+					};
+					5CA1D076200C8C8C006EB762 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CA1D053200C8C8B006EB762;
+					};
+				};
+			};
+			buildConfigurationList = 5CA1D04F200C8C8B006EB762 /* Build configuration list for PBXProject "BeeHookSimpleDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CA1D04B200C8C8B006EB762;
+			productRefGroup = 5CA1D055200C8C8B006EB762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA1D053200C8C8B006EB762 /* BeeHookSimpleDemo */,
+				5CA1D06B200C8C8C006EB762 /* BeeHookSimpleDemoTests */,
+				5CA1D076200C8C8C006EB762 /* BeeHookSimpleDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CA1D052200C8C8B006EB762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA1D064200C8C8B006EB762 /* LaunchScreen.storyboard in Resources */,
+				5CA1D08E200C8E7D006EB762 /* fuli.jpg in Resources */,
+				5CA1D061200C8C8B006EB762 /* Assets.xcassets in Resources */,
+				5CA1D05F200C8C8B006EB762 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D06A200C8C8C006EB762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D075200C8C8C006EB762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C4E0E065A92B9D16C36876 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeHookSimpleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FCA68C6EBB836A88C5023A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeeHookSimpleDemo/Pods-BeeHookSimpleDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB3D46786BBD3BD3F448AC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeeHookSimpleDemo/Pods-BeeHookSimpleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA1D050200C8C8B006EB762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C287BBB200CC312009197A9 /* BeeSlicingViewController.m in Sources */,
+				5CA1D09C200C9B9E006EB762 /* BeeClickBtnViewController+RecordCategory.m in Sources */,
+				5CA1D05C200C8C8B006EB762 /* ViewController.m in Sources */,
+				5C38CAFF200DA07400561CD3 /* MessageRecordViewController.m in Sources */,
+				5CA1D067200C8C8B006EB762 /* main.m in Sources */,
+				5CA1D08B200C8D63006EB762 /* BeeHomeViewController.m in Sources */,
+				5CA1D098200C972F006EB762 /* BeeClickBtnViewController.m in Sources */,
+				5CA1D059200C8C8B006EB762 /* AppDelegate.m in Sources */,
+				5C38CB05200DA25F00561CD3 /* MessageRecordViewController+RecordCategory.m in Sources */,
+				5CA1D09F200CA3E2006EB762 /* BeeSwizzling.m in Sources */,
+				5CA1D092200C8FC1006EB762 /* BeeHomeTableViewCell.m in Sources */,
+				5C287BBF200CCD99009197A9 /* BeeSlicingViewController+RecordCategory.m in Sources */,
+				5C287BBC200CC312009197A9 /* BeePuzzleCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D068200C8C8C006EB762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA1D071200C8C8C006EB762 /* BeeHookSimpleDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CA1D073200C8C8C006EB762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA1D07C200C8C8C006EB762 /* BeeHookSimpleDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CA1D06E200C8C8C006EB762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA1D053200C8C8B006EB762 /* BeeHookSimpleDemo */;
+			targetProxy = 5CA1D06D200C8C8C006EB762 /* PBXContainerItemProxy */;
+		};
+		5CA1D079200C8C8C006EB762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CA1D053200C8C8B006EB762 /* BeeHookSimpleDemo */;
+			targetProxy = 5CA1D078200C8C8C006EB762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CA1D05D200C8C8B006EB762 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA1D05E200C8C8B006EB762 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CA1D062200C8C8B006EB762 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CA1D063200C8C8B006EB762 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CA1D07E200C8C8C006EB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CA1D07F200C8C8C006EB762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CA1D081200C8C8C006EB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B6E9E199517A2FEFA904D59 /* Pods-BeeHookSimpleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeeHookSimpleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = BeeHookSimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CA1D082200C8C8C006EB762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4AAC15B03F24ACEAE2E1BD /* Pods-BeeHookSimpleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BeeHookSimpleDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = BeeHookSimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CA1D084200C8C8C006EB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHookSimpleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHookSimpleDemo.app/BeeHookSimpleDemo";
+			};
+			name = Debug;
+		};
+		5CA1D085200C8C8C006EB762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHookSimpleDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeeHookSimpleDemo.app/BeeHookSimpleDemo";
+			};
+			name = Release;
+		};
+		5CA1D087200C8C8C006EB762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHookSimpleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHookSimpleDemo;
+			};
+			name = Debug;
+		};
+		5CA1D088200C8C8C006EB762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHookSimpleDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GD-Bee.BeeHookSimpleDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BeeHookSimpleDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA1D04F200C8C8B006EB762 /* Build configuration list for PBXProject "BeeHookSimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA1D07E200C8C8C006EB762 /* Debug */,
+				5CA1D07F200C8C8C006EB762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA1D080200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA1D081200C8C8C006EB762 /* Debug */,
+				5CA1D082200C8C8C006EB762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA1D083200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA1D084200C8C8C006EB762 /* Debug */,
+				5CA1D085200C8C8C006EB762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA1D086200C8C8C006EB762 /* Build configuration list for PBXNativeTarget "BeeHookSimpleDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA1D087200C8C8C006EB762 /* Debug */,
+				5CA1D088200C8C8C006EB762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA1D04C200C8C8B006EB762 /* Project object */;
+}
